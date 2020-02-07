@@ -1,12 +1,14 @@
+# UglyCloud_test002_Package
+ 
 # UglyCloud_test002
 _Watching clouds in the sky and guessing the shape of it is the most chill game we experienced before.The Ugly Cloud provided a peaceful way to present a possibitlity for peoples to argument some serious issues under this beautiful view._
-![](image/12.jpg)
+![Screenshot](images/12.jpg)
 _peaceful cloud and different sound and music trigger by sensors on the users hands_
 ## Step1. Clouds Scene
 _procedural, 3d, raymarching, volumetric, lod, vr_
 >
 using an iconic [clouds shader](https://www.shadertoy.com/view/XslGRr) by iq , and custumize a run-time noise texture to becsuitable in Unity .algorithm : [here](https://www.shadertoy.com/view/4sfGzS).
-![](image/Screenshot.png)
+![Screenshot](Screenshot.png)
 1.Shader: Shader>Unlit>Clouds
 >
 2.Script:RuntimeTextureGenerator
@@ -16,20 +18,20 @@ _A MatCap is a 2D texture representing a 3D surface that includes lighting and r
 >
 https://www.youtube.com/watch?v=9mrk7URS2VM
 >
-![](image/454.jpg)
+![Screenshot](454.jpg)
 (0)Create an Empty object
 >
 (1)Particle system
 >
-![](image/Particle001.jpg)
+![Screenshot](Particle001.jpg)
 >
 (2)Shader
 >
-![](image/452.jpg)
+![Screenshot](452.jpg)
 >
 Shader>MatCap>Particles>SoftAlphaBlendingwithFog
 >
-![](image/Particle_cloud.jpg)
+![Screenshot](Particle_cloud.jpg)
 >
 1.format:png
 >
@@ -52,8 +54,6 @@ take the Normal Direction setting in the render drop-down to 0, or 0.05. This wi
 >
 ## Step4. Making C4d Model of cloud
 >
-![](image/clouds.jpg)
->
 model from C4D to unity:https://www.youtube.com/watch?v=FGhI948mMQE
 >
 1.After downloading free 3D Modeling from online library, need to turn several object children into one single model.
@@ -75,6 +75,46 @@ tryout steps: make a model version and an animation version in C4D
 >
 make a model be in unity first to try the cloud shader
 
+## Step5. Sound Control and Design
+>
+>public class SoundController : MonoBehaviour
+>
+>{
+>
+>public AudioSource goodSound;
+>
+>public AudioSource badSound;
+>
+>// Start is called before the first frame update
+>
+> void Start(){
+>
+>badSound.Pause();
+>
+>}
+>
+>   // Update is called once per frame
+>    void Update()
+> 
+>{
+>       if (Input.GetKeyDown(KeyCode.Space))
+>       {
+>           goodSound.Pause();
+>           badSound.Play();
+>       }
+>
+>       if (Input.GetKeyUp(KeyCode.Space))
+>       {
+>           goodSound.Play();
+>           badSound.Pause();
+> }
+>
+>}
+>
+>}
+>
+>
+
 ## Reference:
 **Custume Cloud in C4d
 Effect A Tron**
@@ -85,12 +125,3 @@ https://www.youtube.com/watch?v=E2xx7-4x5K0&list=PLrlN1DwkA0_YPifgoRPcQ48gnl-diP
 Howard Day**
 _cloud shader driven by a perspective-corrected matcap for the primary lighting_
 https://www.youtube.com/watch?v=BQcjsW8ldkw
-
-**Unity Volumetric Clouds Shadery
-Yuma Yanagisawa**
-https://www.youtube.com/watch?v=-_CAELsrDqg&feature=youtu.be&fbclid=IwAR1uk0uTqRuAoeH0VTD-MBS8qT99pxUYmRp1_TMNqPNiPuX0irCbhgDuRZM
-
-**Intro to Shader Coding in Unity - An Improvised Live Course
-Freya Holmér**
-https://www.youtube.com/watch?v=9WW5-0N1DsI
-
