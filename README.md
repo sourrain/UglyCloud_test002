@@ -2,7 +2,7 @@
  
 # UglyCloud_test002
 _Watching clouds in the sky and guessing the shape of it is the most chill game we experienced before.The Ugly Cloud provided a peaceful way to present a possibitlity for peoples to argument some serious issues under this beautiful view._
-![Screenshot](images/12.jpg)
+![](images/12.jpg)
 _peaceful cloud and different sound and music trigger by sensors on the users hands_
 ## Step1. Clouds Scene
 _procedural, 3d, raymarching, volumetric, lod, vr_
