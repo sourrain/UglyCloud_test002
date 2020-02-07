@@ -1,12 +1,12 @@
 # UglyCloud_test002
 _Watching clouds in the sky and guessing the shape of it is the most chill game we experienced before.The Ugly Cloud provided a peaceful way to present a possibitlity for peoples to argument some serious issues under this beautiful view._
-![Screenshot](12.jpg)
+![](image/12.jpg)
 _peaceful cloud and different sound and music trigger by sensors on the users hands_
 ## Step1. Clouds Scene
 _procedural, 3d, raymarching, volumetric, lod, vr_
 >
 using an iconic [clouds shader](https://www.shadertoy.com/view/XslGRr) by iq , and custumize a run-time noise texture to becsuitable in Unity .algorithm : [here](https://www.shadertoy.com/view/4sfGzS).
-![Screenshot](Screenshot.png)
+![](image/Screenshot.png)
 1.Shader: Shader>Unlit>Clouds
 >
 2.Script:RuntimeTextureGenerator
@@ -16,20 +16,20 @@ _A MatCap is a 2D texture representing a 3D surface that includes lighting and r
 >
 https://www.youtube.com/watch?v=9mrk7URS2VM
 >
-![Screenshot](454.jpg)
+![](image/454.jpg)
 (0)Create an Empty object
 >
 (1)Particle system
 >
-![Screenshot](Particle001.jpg)
+![](image/Particle001.jpg)
 >
 (2)Shader
 >
-![Screenshot](452.jpg)
+![](image/452.jpg)
 >
 Shader>MatCap>Particles>SoftAlphaBlendingwithFog
 >
-![Screenshot](Particle_cloud.jpg)
+![](image/Particle_cloud.jpg)
 >
 1.format:png
 >
@@ -52,7 +52,7 @@ take the Normal Direction setting in the render drop-down to 0, or 0.05. This wi
 >
 ## Step4. Making C4d Model of cloud
 >
-![Screenshot](clouds.jpg)
+![](image/clouds.jpg)
 >
 model from C4D to unity:https://www.youtube.com/watch?v=FGhI948mMQE
 >
