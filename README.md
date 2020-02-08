@@ -68,6 +68,8 @@ model from C4D to unity:https://www.youtube.com/watch?v=FGhI948mMQE
 >
 4.Export FBX Model and Animation
 >
+http://52.194.230.17/2019/11/15/c4d-%E5%BF%AB%E9%80%9F%E6%A8%A1%E5%9E%8B%E6%B8%9B%E9%9D%A2%E5%A4%A7%E6%B3%95-polygon-reduction/
+>
 Use C4d: Polygon Reduction to make Level of Detail – LOD 
 >
 go to C4d Animation template/drag the object into Timeline/Function/Bake
