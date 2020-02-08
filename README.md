@@ -115,7 +115,9 @@ vertex animation from C4D to unity:https://www.youtube.com/watch?v=r80iOjhjh1s
 >}
 >
 >
-
+## Step6. O
+>
+http://52.194.230.17/2020/01/30/unity3d-meshbaker-object-replace-to-prefab-and-reduce-scene-file-size/
 ## Reference:
 **Custume Cloud in C4d
 Effect A Tron**
