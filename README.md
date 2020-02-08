@@ -1,5 +1,3 @@
-# UglyCloud_test002_Package
- 
 # UglyCloud_test002
 _Watching clouds in the sky and guessing the shape of it is the most chill game we experienced before.The Ugly Cloud provided a peaceful way to present a possibitlity for peoples to argument some serious issues under this beautiful view._
 ![](images/12.jpg)
@@ -70,12 +68,11 @@ model from C4D to unity:https://www.youtube.com/watch?v=FGhI948mMQE
 >
 4.Export FBX Model and Animation
 >
+Use C4d: Polygon Reduction to make Level of Detail – LOD 
+>
 go to C4d Animation template/drag the object into Timeline/Function/Bake
 vertex animation from C4D to unity:https://www.youtube.com/watch?v=r80iOjhjh1s
->
-tryout steps: make a model version and an animation version in C4D
->
-make a model be in unity first to try the cloud shader
+
 
 ## Step5. Sound Control and Design
 >
